@@ -182,3 +182,46 @@ header nav a {
     background-position: center;
     background-size: cover;
 }
+
+/* --------------------------------------------------------------------- */
+
+.projetos {
+    height: 377px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 75px;
+    padding-top: 50px;
+}
+
+.foto {
+    width: 386px;
+    height: 277px;
+    border-radius: 3%;
+}
+
+.geometry h4, .geometry h5 {
+    font-weight: normal;
+}
+
+.geometry h4 {
+    font-size: 25px;
+}
+
+.geometry h5 {
+    font-size: 20px;
+}
+
+.infos h4{
+    font-size: 25px;
+}
+.infos p {
+    font-size: 20px;
+    max-width: 1200px;
+}
+
+.metodologia {
+    margin-top: 50px;
+}
+
+/* --------------------------------------------------------------------- */
