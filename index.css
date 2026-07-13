@@ -3,6 +3,14 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', sans-serif;
+}
+
 header {
     height: 109px;
     background-color: rgb(98, 164, 250);
@@ -190,18 +198,24 @@ header nav a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 75px;
+    gap: 60px;
     padding-top: 50px;
 }
 
 .foto {
-    width: 386px;
-    height: 277px;
+    width: 400px;
+    height: 290px;
     border-radius: 3%;
 }
 
 .geometry h4, .geometry h5 {
     font-weight: normal;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .geometry h4 {
@@ -221,7 +235,82 @@ header nav a {
 }
 
 .metodologia {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* --------------------------------------------------------------------- */
+
+.Contato {
+    height: 467px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    align-items: start;
     margin-top: 50px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.texto h4 {
+    font-size: 32px;
+}
+
+.texto p {
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.Contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Contato form label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.Contato form input {
+    width: 713px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(221, 221, 221, 1);
+    
+}
+
+.Contato form textarea {
+    width: 713px;
+    height: 161px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(221, 221, 221, 1);
+}
+
+.Contato form button {
+    width: 100px;
+    height: 34px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(151, 151, 151, 1);
+    color: white;
+    font-size: 18px;
+    align-self: flex-end;
 }
 
 /* --------------------------------------------------------------------- */

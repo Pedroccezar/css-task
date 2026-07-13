@@ -10,15 +10,15 @@
     <header>
         <h2>Pedro Castilho</h2>
         <nav>
-            <a href="#">Quem sou</a>
-            <a href="#">Hobbies</a>
-            <a href="#">Projetos</a>
-            <a href="#">Contato</a>
+            <a href="#resumo">Quem sou</a>
+            <a href="#lists">Hobbies</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
 
     <main>
-        <section class="resumo">
+        <section class="resumo" id="resumo">
             <div class="circulo"></div>
             <section class="textoresumo">
                 <h4>Sobre mim</h4>
@@ -28,7 +28,7 @@
             </section>
         </section>
 
-        <section class="lists">
+        <section class="lists" id="lists">
             <section class="hobbies">
                 <h4>Hobbies</h4>
                 <ul>
@@ -51,7 +51,7 @@
             </section>
         </section>
 
-        <section class="projetos">
+        <section class="projetos" id="projetos">
             <section class="geometry">
                 <img src="./assets/geometrycatch.png" class="foto">
                 <h4>Geometry Catch</h4>
@@ -59,15 +59,40 @@
             </section>
             <section class="infos">
                 <div class="descricao">
-                    <h4>Descrição</h4>
+                    <h4>Descrição:</h4>
                     <p>Geometry Catch é um jogo de habilidade e reflexo no qual o jogador controla um personagem localizado na parte inferior da tela. Durante a partida, figuras geométricas (círculos, quadrados e triângulos) caem aleatoriamente, e o objetivo é interceptá-las no momento certo utilizando a tecla de ataque. Durante a partida, figuras geométricas (círculos, quadrados e triângulos) caem aleatoriamente, e o objetivo é interceptá-las no momento certo utilizando a tecla de ataque.</p>
                 </div>
                 <div class="metodologia">
-                    <h4>Metodologia</h4>
+                    <h4>Metodologia:</h4>
                     <p>O Geometry Catch foi desenvolvido em Python utilizando a biblioteca PPlay, com uma estrutura modular que separa as principais funcionalidades do jogo, como menu, configurações, movimentação, colisões e pontuação. Também foi implementado um sistema de estados para controlar as diferentes telas, além de mecânicas de geração aleatória de obstáculos, aumento progressivo da dificuldade e opções de personalização, como idioma, volume e teclas de controle.</p>
                 </div>
             </section>
         </section>
+
+        <section class="Contato" id="contato">
+            <section class="texto">
+                <h4>Entre em contato!</h4>
+                <p>Tem alguma dúvida, sugestão ou gostaria de conversar sobre um projeto? Ficarei feliz em receber sua mensagem. Preencha o formulário ou utilize um dos canais de contato, e responderei assim que possível.Tem alguma dúvida, sugestão ou gostaria de conversar sobre um projeto? Ficarei feliz em receber sua mensagem. Preencha o formulário abaixo ou utilize um dos canais de contato.</p>
+            </section>
+                <form>
+                    <div class="campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="descricao">Descrição</label>
+                        <textarea name="descricao" id="descricao" style="resize: none;" required cols="50" rows="10"></textarea>
+                    </div>
+                    <button>Enviar</button>
+                </form>
+        </section>
+
     </main>
 </body>
 </html>
