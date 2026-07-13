@@ -314,3 +314,53 @@ header nav a {
 }
 
 /* --------------------------------------------------------------------- */
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    background-color: rgba(196, 196, 196, 1);
+    align-items: center;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%; /* faz o nav esticar até a borda do footer */
+}
+
+.insta {
+    display: flex;
+    width: 32px;
+    height: 32px;
+}
+
+.linkedin {
+    display: flex;
+    width: 32px;
+    height: 32px;
+}
+
+.github {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.botaocontato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 34px;
+    border-radius: 6px;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: auto;
+}
